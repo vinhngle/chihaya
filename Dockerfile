@@ -1,4 +1,4 @@
-FROM golang:alpine AS build-env
+FROM golang:1.13.8-alpine AS build-env
 LABEL maintainer "Jimmy Zelinskie <jimmyzelinskie+git@gmail.com>"
 
 # Install OS-level dependencies.
